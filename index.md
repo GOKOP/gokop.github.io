@@ -9,5 +9,5 @@ At some point I plan to post semi-frequently on this blog,
 but if you're reading this sentence then I haven't started yet. (infrequent posts might appear though)
 
 I don't believe that any recruiter is gonna read this but if you are one
-then I'm interested in programming-related interships in Toruń, Poland or remotely.
+then I'm interested in programming-related internships in Toruń, Poland or remotely.
 You can email me at igorbugajski@protonmail.com
