@@ -18,12 +18,14 @@ body {
 
 header {
 	background-color: #111;
-	font-size: 200%;
 	padding: 0.5em;
+	font-style: italic;
 }
 
 header h1 {
-	font-size: inherit;
+	font-size: 200%;
+	font-style: normal;
+	font-weight: normal;
 }
 
 header a, header a:hover, header a:visited {
