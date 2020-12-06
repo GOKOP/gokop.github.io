@@ -7,7 +7,7 @@ but in reality it's just that I wanted to write a [shell script](https://github.
 I also like the idea of having your own place on the internet, even if I'm not sure what to do with it, and that's how this blog was born.
 
 The kind of content that I plan to post here is programming and/or general IT related stuff about things that I'll happen to be doing or thinking, if they'll be interesting.
-I don't plan to diverge from this subject so don't except lifestyle advice (like I was competent to give it lol) or political essays.
+I don't plan to diverge from this subject so don't expect lifestyle advice (like I was competent to give it lol) or political essays.
 
 Do I think that anyone's gonna read this? 
 No, but there's no analytics of any kind here (especially that for now it's hosted on Github Pages) so I can live in blissful ignorance. :)
