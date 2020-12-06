@@ -23,6 +23,10 @@ article .date {
 	font-size: 85%;
 }
 
+article .date .edit {
+	font-style: italic;
+}
+
 nav {
 	text-align: left;
 }
