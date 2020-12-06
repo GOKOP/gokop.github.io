@@ -1,3 +1,0 @@
-# Sraczka dziwaczka
-
-ayyee
