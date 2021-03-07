@@ -1,11 +1,15 @@
 article {
-	width: 60%;
+	width: 55em;
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 150%;
 	font-size: 115%;
 	padding-left: 2em;
 	padding-right: 2em;
+	border-left: 2px solid #484850;
+	border-right: 2px solid #484850;
+	background-color: #44444c;
+	flex: auto;
 }
 
 article h2 {
@@ -13,12 +17,16 @@ article h2 {
 	text-align: left;
 }
 
-@media only screen and (max-width: 65em) {
+/* article is 55em+2em+2em=59em wide and uses 115% sized font */
+/* 59em in 115% font size is 67.85em in 100% font size */
+/* so the below query kicks in seamlessly right when article would no longer fit */
+@media only screen and (max-width: 67.85em) {
 	article {
 		width: 100vw;
 		box-sizing: border-box;
 		padding-left: 0.5em;
 		padding-right: 0.5em;
+		border: none;
 	}
 
 	ul {

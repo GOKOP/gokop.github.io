@@ -1,12 +1,15 @@
 article {
-	max-width: 65em;
-	min-width: 60%;
+	width: 55em;
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 150%;
 	font-size: 115%;
 	padding-left: 2em;
 	padding-right: 2em;
+	border-left: 2px solid #484850;
+	border-right: 2px solid #484850;
+	background-color: #44444c;
+	flex: auto;
 }
 
 article h2 {
@@ -37,7 +40,7 @@ pre {
 	width: 80%;
 	margin: auto;
 	padding: 1em;
-	font-family: monospace;
+	font-family: Courier, Monospace;
 	overflow: scroll;
 }
 
@@ -57,10 +60,14 @@ blockquote::before {
 	margin: 0;
 }
 
-@media only screen and (max-width: 62em) {
+/* article is 55em+2em+2em=59em wide and uses 115% sized font */
+/* 59em in 115% font size is 67.85em in 100% font size */
+/* so the below query kicks in seamlessly right when article would no longer fit */
+@media only screen and (max-width: 67.85em) {
 	article {
 		width: 100vw;
 		box-sizing: border-box;
+		border: none;
 	}
 }
 
@@ -70,11 +77,13 @@ blockquote::before {
 		box-sizing: border-box;
 		padding-left: 0.5em;
 		padding-right: 0.5em;
+		border: none;
 	}
 
 	pre {
 		width: 100%;
 		margin: -0.5em;
+		margin-bottom: 0.5em;
 		padding: 0 0.5em 0 0.5em;
 	}
 
